@@ -176,10 +176,8 @@ public final class Control {
             end = entrada.nextInt();
 
             control.findPath(start - 1, end - 1);
-            System.out.print("Parar?[s/n] ");
-            String ans = entrada.nextLine();
 
-            stop = ans.startsWith("s");
+            System.out.println("------------------------------");
         }
     }
 }
